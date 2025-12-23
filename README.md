@@ -19,7 +19,7 @@ This project involves designing, implementing, and optimizing a PostgreSQL datab
 ### Phase 1: Database Setup (Dec 20 - Dec 22)
 | Task | Deadline | Status | Notes |
 |------|----------|--------|-------|
-| Download IMDB dataset | Dec 20-22 | ✅ Complete | 6 TSV files (~50GB) |
+| Download IMDB dataset | Dec 20-22 | ✅ Complete | 6 TSV files (~6GB) |
 | Schema design & analysis | Dec 20-22 | ✅ Complete | 6 tables defined |
 | Database creation (PostgreSQL) | Dec 20-22 | ✅ Complete | All tables created |
 | Data import | Dec 20-22 | ✅ Completed | Resolved COPY permission errors |
