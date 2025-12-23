@@ -28,9 +28,9 @@ This project involves designing, implementing, and optimizing a PostgreSQL datab
 ### Phase 2: Indexing & Optimization (Dec 23 - Dec 25)
 | Task | Deadline | Status | Notes |
 |------|----------|--------|-------|
-| Create basic B-tree indexes | Dec 23-25 | 🔄 In Progress | Title, name, rating indexes |
-| Test GIN indexes (full-text) | Dec 23-25 | 🔄 In Progress | Text search optimization |
-| Test BRIN indexes | Dec 23-25 | 🔄 In Progress | Large table efficiency |
+| Create basic B-tree indexes | Dec 23-25 | ✅ In Progress | Title, name, rating indexes |
+| Test GIN indexes (full-text) | Dec 23-25 | ✅ In Progress | Text search optimization |
+| Test BRIN indexes | Dec 23-25 | ✅ In Progress | Large table efficiency |
 | Task 2d: Composite index comparison | Dec 23-25 | 🔄 In Progress | titleType + startYear |
 | Task 2e: Text search analysis | Dec 23-25 | 🔄 In Progress | LIKE vs GIN performance |
 | Task 2f: Insert performance test | Dec 23-25 | 🔄 In Progress | 1000 record benchmark |
