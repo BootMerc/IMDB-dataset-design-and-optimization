@@ -1,4 +1,4 @@
-# IMDB Database Systems Project - README
+# IMDB Database Systems Project
 
 **Course:** CSE323 - Advanced Database Systems  
 **Institution:** King Salman International University  
@@ -156,15 +156,6 @@ CSE323-Project/
 
 ---
 
-## ✨ Key Achievements
-
-✅ **Dec 6-8:** Successful database schema design and creation  
-✅ **Dec 9:** Resolved data import permission issues (3 errors fixed)  
-✅ **Dec 14:** Created comprehensive 4000+ line implementation guide  
-✅ **Dec 15:** Fixed query syntax errors and performance analysis queries  
-
----
-
 ## 📊 Performance Targets (Task 2-3)
 
 | Optimization | Target | Status |
@@ -183,17 +174,7 @@ CSE323-Project/
    - SQL scripts: `/SQL Scripts/` folder
    - Database dumps: `/Database Dumps/` folder
 
-2. **Team Responsibilities:**
-   - Member 1: Schema design, Tasks 1-3
-   - Member 2: Functions, Transactions, Concurrency (Tasks 5-7)
-   - Member 3: Backup, Security, Reporting (Tasks 8-9)
-
-3. **Deadline Extension:**
-   - Original: December 22, 2025
-   - Current: Still working (Dec 23+)
-   - Focus: Complete Tasks 2-9 with comprehensive testing
-
-4. **Report Requirements:**
+2. **Report Requirements:**
    - Database design documentation
    - Performance comparison metrics (before/after optimization)
    - Analysis of each optimization technique
@@ -209,22 +190,6 @@ CSE323-Project/
 - **Course Materials:** CSE323 Advanced Database Systems
 
 ---
-
-## 📋 Deliverables Checklist
-
-- [ ] Database schema creation scripts
-- [ ] All 9 task implementation files
-- [ ] Performance metrics and benchmarks
-- [ ] Detailed technical report (PDF)
-- [ ] PostgreSQL database dump
-- [ ] Security implementation documentation
-- [ ] Backup & recovery procedure documentation
-- [ ] Compressed archive (.zip/.rar)
-  - Format: `ID#1_Name#1_ID#2_Name#2_ID#3_Name#3_CSE323-Project.rar`
-
----
-
-## 🎬 Getting Started (For Team Members)
 
 ### 1. Clone/Access Project Files
 ```bash
