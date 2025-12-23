@@ -2,7 +2,6 @@
 
 **Course:** CSE323 - Advanced Database Systems  
 **Institution:** King Salman International University  
-**Project Type:** Team Project (3 Members)  
 **Submitted:** December 2025
 
 ---
@@ -11,66 +10,54 @@
 
 This project involves designing, implementing, and optimizing a PostgreSQL database using the IMDb (International Movie Database) dataset. The database includes 6 core tables (Titles, Names, Ratings, Principals, Crew, Episodes) and covers advanced database concepts including indexing, query optimization, transactions, concurrency control, backup/recovery, and security.
 
-**Total Points:** 10  
-**Original Due Date:** December 22, 2025  
 **Current Status:** IN PROGRESS
-
----
-
-## 👥 Team Members
-
-| # | Name | ID | Role | Status |
-|---|------|----|----|--------|
-| 1 | [Member 1] | [ID] | [Lead/Developer] | ✅ Active |
-| 2 | [Member 2] | [ID] | [Developer] | ✅ Active |
-| 3 | [Member 3] | [ID] | [Developer] | ✅ Active |
 
 ---
 
 ## 📅 Project Timeline & Milestones
 
-### Phase 1: Database Setup (Dec 6 - Dec 10)
+### Phase 1: Database Setup (Dec 20 - Dec 22)
 | Task | Deadline | Status | Notes |
 |------|----------|--------|-------|
-| Download IMDB dataset | Dec 6 | ✅ Complete | 6 TSV files (~50GB) |
-| Schema design & analysis | Dec 7 | ✅ Complete | 6 tables defined |
-| Database creation (PostgreSQL) | Dec 8 | ✅ Complete | All tables created |
-| Data import | Dec 9 | 🔄 In Progress | Resolved COPY permission errors |
-| Query verification (1c-1f) | Dec 10 | ⏳ Pending | Awaiting data load completion |
+| Download IMDB dataset | Dec 20-22 | ✅ Complete | 6 TSV files (~50GB) |
+| Schema design & analysis | Dec 20-22 | ✅ Complete | 6 tables defined |
+| Database creation (PostgreSQL) | Dec 20-22 | ✅ Complete | All tables created |
+| Data import | Dec 20-22 | ✅ Completed | Resolved COPY permission errors |
+| Query verification (1c-1f) | Dec 20-22 | ✅ Completed | Awaiting data load completion |
 
-### Phase 2: Indexing & Optimization (Dec 11 - Dec 15)
+### Phase 2: Indexing & Optimization (Dec 23 - Dec 25)
 | Task | Deadline | Status | Notes |
 |------|----------|--------|-------|
-| Create basic B-tree indexes | Dec 11 | 🔄 In Progress | Title, name, rating indexes |
-| Test GIN indexes (full-text) | Dec 12 | ⏳ Pending | Text search optimization |
-| Test BRIN indexes | Dec 12 | ⏳ Pending | Large table efficiency |
-| Task 2d: Composite index comparison | Dec 13 | ⏳ Pending | titleType + startYear |
-| Task 2e: Text search analysis | Dec 14 | ⏳ Pending | LIKE vs GIN performance |
-| Task 2f: Insert performance test | Dec 15 | ⏳ Pending | 1000 record benchmark |
+| Create basic B-tree indexes | Dec 23-25 | 🔄 In Progress | Title, name, rating indexes |
+| Test GIN indexes (full-text) | Dec 23-25 | ⏳ Pending | Text search optimization |
+| Test BRIN indexes | Dec 23-25 | ⏳ Pending | Large table efficiency |
+| Task 2d: Composite index comparison | Dec 23-25 | ⏳ Pending | titleType + startYear |
+| Task 2e: Text search analysis | Dec 23-25 | ⏳ Pending | LIKE vs GIN performance |
+| Task 2f: Insert performance test | Dec 23-25 | ⏳ Pending | 1000 record benchmark |
 
-### Phase 3: Query Optimization (Dec 15 - Dec 18)
+### Phase 3: Query Optimization (Dec 26 - Dec 28)
 | Task | Deadline | Status | Notes |
 |------|----------|--------|-------|
-| Christopher Nolan query (3 versions) | Dec 16 | ⏳ Pending | Subquery → CTE → Optimized |
-| Given inefficient query optimization | Dec 17 | ⏳ Pending | 30sec → <5sec target |
-| Performance comparison & analysis | Dec 18 | ⏳ Pending | EXPLAIN ANALYZE results |
+| Christopher Nolan query (3 versions) | Dec 26-28 | ⏳ Pending | Subquery → CTE → Optimized |
+| Given inefficient query optimization | Dec 26-28 | ⏳ Pending | 30sec → <5sec target |
+| Performance comparison & analysis | Dec 26-28 | ⏳ Pending | EXPLAIN ANALYZE results |
 
-### Phase 4: Advanced Concepts (Dec 18 - Dec 20)
+### Phase 4: Advanced Concepts (Dec 29 - Dec 31)
 | Task | Deadline | Status | Notes |
 |------|----------|--------|-------|
-| Task 4: Subqueries vs JOINs | Dec 18 | ⏳ Pending | NOT IN vs LEFT JOIN vs NOT EXISTS |
-| Task 5: Functions | Dec 19 | ⏳ Pending | Episode counting, ID generation |
-| Task 6: Transactions & ACID | Dec 19 | ⏳ Pending | Lost update problem demonstration |
-| Task 7: Concurrency control | Dec 20 | ⏳ Pending | Isolation levels & deadlock handling |
+| Task 4: Subqueries vs JOINs | Dec 29-31 | ⏳ Pending | NOT IN vs LEFT JOIN vs NOT EXISTS |
+| Task 5: Functions | Dec 29-31 | ⏳ Pending | Episode counting, ID generation |
+| Task 6: Transactions & ACID | Dec 29-31 | ⏳ Pending | Lost update problem demonstration |
+| Task 7: Concurrency control | Dec 29-31 | ⏳ Pending | Isolation levels & deadlock handling |
 
-### Phase 5: Production Readiness (Dec 20 - Dec 22)
+### Phase 5: Production Readiness (Jan 1 - Jan 3)
 | Task | Deadline | Status | Notes |
 |------|----------|--------|-------|
-| Task 8: Backup & Recovery | Dec 21 | ⏳ Pending | WAL, point-in-time recovery |
-| Task 9: Security (RBAC, encryption) | Dec 22 | ⏳ Pending | Roles, RLS, audit logging |
-| Database dump export | Dec 22 | ⏳ Pending | .dump or .sql format |
-| Report compilation | Dec 22 | ⏳ Pending | Design doc + performance metrics |
-| Final deliverable (.zip/.rar) | Dec 22 | ⏳ Pending | All files packaged |
+| Task 8: Backup & Recovery | Jan 1-3 | ⏳ Pending | WAL, point-in-time recovery |
+| Task 9: Security (RBAC, encryption) | Jan 1-3 | ⏳ Pending | Roles, RLS, audit logging |
+| Database dump export | Jan 1-3 | ⏳ Pending | .dump or .sql format |
+| Report compilation | Jan 1-3 | ⏳ Pending | Design doc + performance metrics |
+| Final deliverable (.zip/.rar) | Jan 1-3 | ⏳ Pending | All files packaged |
 
 ---
 
@@ -97,18 +84,6 @@ This project involves designing, implementing, and optimizing a PostgreSQL datab
 - [ ] Performance metrics collection
 - [ ] Report generation
 - [ ] Final packaging and submission
-
----
-
-## 🔧 Technical Stack
-
-| Component | Version | Status |
-|-----------|---------|--------|
-| PostgreSQL | 15.x+ | ✅ Installed |
-| pgAdmin 4 | Latest | ✅ Installed |
-| psql CLI | v15+ | ✅ Ready |
-| Python 3.x | 3.8+ | ⏳ Optional (for benchmarking) |
-| IMDb Dataset | Current | ✅ Downloaded |
 
 ---
 
@@ -279,14 +254,3 @@ cd C:\path\to\CSE323-Project
 # Include metrics, analysis, and recommendations
 ```
 
----
-
-## 📞 Communication & Updates
-
-- **Last Updated:** December 15, 2025, 2:26 PM EET
-- **Next Milestone:** Complete Task 2 (Indexes) by Dec 16
-- **Final Submission:** December 23, 2025 (revised)
-
----
-
-**Good luck with the project! 🚀**
